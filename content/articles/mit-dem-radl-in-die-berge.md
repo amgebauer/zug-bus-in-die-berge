@@ -2,8 +2,8 @@ Title: Mit dem Radl in die Berge
 Category: Tipps & Tricks
 Date: 2024-02-10
 SubTitle: Für MTB-Touren oder die letzte Meile
-Cover: /images/radl_im_zug_2_small.jpg
-Thumbnail: /images/radl_im_zug.jpeg
+Cover: images/radl_im_zug_2_small.jpg
+Thumbnail: images/radl_im_zug.jpeg
 
 Das Fahrrad eignet sich nicht nur bei MTB-Touren, sondern auch zur Überbrückung
 der letzten Meile vom Bahnhof. In der Regel kommst du mit dem Fahrrad weiter als

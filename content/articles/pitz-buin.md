@@ -2,8 +2,8 @@ Title: Mit Zug & Bus zur Wiesbadener Hütte
 Category: Touren
 Date: 2024-02-09
 SubTitle: Ein verlängertes Hochtourenwochenende um Pitz Buin und Dreiländerspitze mit sanfter Anreise
-Cover: /images/wiesbadener_huette.jpeg
-Thumbnail: /images/wiesbadener_huette.jpeg
+Cover: images/wiesbadener_huette.jpeg
+Thumbnail: images/wiesbadener_huette.jpeg
 Tags: Hochtour
 
 Das soll hier kein ausführlicher Tourenbericht sein, sondern nur eine

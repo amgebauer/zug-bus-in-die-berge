@@ -4,7 +4,7 @@
 <div class="category-page-container">
     <div class="category-logo">
         {% if category|string in MEDIUS_CATEGORIES and MEDIUS_CATEGORIES.get(category|string).logo %}
-        <a href="{{ SITEURL }}/{{ category.url }}" rel="bookmark" title="Permalink to {{ category|striptags }}"><img src="{{ MEDIUS_CATEGORIES.get(category|string).logo }}" alt="{{ category|striptags }}"/></a>
+        <a href="{{ SITEURL }}/{{ category.url }}" rel="bookmark" title="Permalink to {{ category|striptags }}"><img src="{{ SITEURL }}/{{ MEDIUS_CATEGORIES.get(category|string).logo }}" alt="{{ category|striptags }}"/></a>
         {% else %}
         <h1><a href="{{ SITEURL }}/{{ category.url }}" rel="bookmark" title="Permalink to {{ category|striptags }}">{{ category }}</a></h1>
         {% endif %}
@@ -24,9 +24,9 @@
         <div class="pure-u-1 pure-u-md-2-3">
            <div class="col">
                {% if article.cover %}
-               <a href="{{ SITEURL }}/{{ article.url }}" class="article-thumbnail article-thumbnail-1" style="background-image:url({{ article.cover }})"><span class="header">{{ article.title }}</span></a>
+               <a href="{{ SITEURL }}/{{ article.url }}" class="article-thumbnail article-thumbnail-1" style="background-image:url({{ SITEURL }}/{{ article.cover }})"><span class="header">{{ article.title }}</span></a>
                {% elif article.thumbnail %}
-               <a href="{{ SITEURL }}/{{ article.url }}" class="article-thumbnail article-thumbnail-1" style="background-image:url({{ article.thumbnail }})"><span class="header">{{ article.title }}</span></a>
+               <a href="{{ SITEURL }}/{{ article.url }}" class="article-thumbnail article-thumbnail-1" style="background-image:url({{ SITEURL }}/{{ article.thumbnail }})"><span class="header">{{ article.title }}</span></a>
                {% endif %}
            </div>
         </div>
@@ -42,7 +42,7 @@
                <div class="post-meta pure-g">
                    {% if author|string in MEDIUS_AUTHORS %}
                    <div class="pure-u">
-                       <img src="{{ MEDIUS_AUTHORS.get(author|string).image }}" class="post-avatar" alt="Go to the profile of {{ author|striptags }}">
+                       <img src="{{ SITEURL }}/{{ MEDIUS_AUTHORS.get(author|string).image }}" class="post-avatar" alt="Go to the profile of {{ author|striptags }}">
                    </div>
                    {% endif %}
                    <div class="pure-u-3-4 meta-data">
@@ -68,9 +68,9 @@
     <div class="pure-u-1 pure-u-sm-1-2 article-info">
         <div class="col">
             {% if article.cover %}
-            <a href="{{ SITEURL }}/{{ article.url }}" class="article-thumbnail article-thumbnail-2" style="background-image:url({{ article.cover }})"><span class="header">{{ article.title }}</span></a>
+            <a href="{{ SITEURL }}/{{ article.url }}" class="article-thumbnail article-thumbnail-2" style="background-image:url({{ SITEURL }}/{{ article.cover }})"><span class="header">{{ article.title }}</span></a>
             {% elif article.thumbnail %}
-            <a href="{{ SITEURL }}/{{ article.url }}" class="article-thumbnail article-thumbnail-2" style="background-image:url({{ article.thumbnail }})"><span class="header">{{ article.title }}</span></a>
+            <a href="{{ SITEURL }}/{{ article.url }}" class="article-thumbnail article-thumbnail-2" style="background-image:url({{ SITEURL }}/{{ article.thumbnail }})"><span class="header">{{ article.title }}</span></a>
             {% endif %}
 
             <h2><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h2>
@@ -80,7 +80,7 @@
             <div class="post-meta pure-g">
                 {% if author|string in MEDIUS_AUTHORS %}
                 <div class="pure-u">
-                    <img src="{{ MEDIUS_AUTHORS.get(author|string).image }}" class="post-avatar" alt="Go to the profile of {{ author|striptags }}">
+                    <img src="{{ SITEURL }}/{{ MEDIUS_AUTHORS.get(author|string).image }}" class="post-avatar" alt="Go to the profile of {{ author|striptags }}">
                 </div>
                 {% endif %}
                 <div class="pure-u-3-4 meta-data">
@@ -108,9 +108,9 @@
     <div class="pure-u-1 pure-u-lg-1-3 article-info">
         <div class="col">
             {% if article.cover %}
-            <a href="{{ SITEURL }}/{{ article.url }}" class="article-thumbnail article-thumbnail-3" style="background-image:url({{ article.cover }})"><span class="header">{{ article.title }}</span></a>
+            <a href="{{ SITEURL }}/{{ article.url }}" class="article-thumbnail article-thumbnail-3" style="background-image:url({{ SITEURL }}/{{ article.cover }})"><span class="header">{{ article.title }}</span></a>
             {% elif article.thumbnail %}
-            <a href="{{ SITEURL }}/{{ article.url }}" class="article-thumbnail article-thumbnail-3" style="background-image:url({{ article.thumbnail }})"><span class="header">{{ article.title }}</span></a>
+            <a href="{{ SITEURL }}/{{ article.url }}" class="article-thumbnail article-thumbnail-3" style="background-image:url({{ SITEURL }}/{{ article.thumbnail }})"><span class="header">{{ article.title }}</span></a>
             {% endif %}
 
             <h2><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h2>
@@ -120,7 +120,7 @@
             <div class="post-meta pure-g">
                 {% if author|string in MEDIUS_AUTHORS %}
                 <div class="pure-u">
-                    <img src="{{ MEDIUS_AUTHORS.get(author|string).image }}" class="post-avatar" alt="Go to the profile of {{ author|striptags }}">
+                    <img src="{{ SITEURL }}/{{ MEDIUS_AUTHORS.get(author|string).image }}" class="post-avatar" alt="Go to the profile of {{ author|striptags }}">
                 </div>
                 {% endif %}
                 <div class="pure-u-3-4 meta-data">

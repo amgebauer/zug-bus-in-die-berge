@@ -34,11 +34,11 @@ THEME = "themes/medius"
 MEDIUS_CATEGORIES = {
     'Tipps & Tricks': {
         'description': 'Wenn man ein paar Dinge beachtet kommt man entspannt mit der Bahn in die Berge und wieder zurück. Hier findest du wichtige Tipps.',
-        'thumbnail': '/images/kleiner_zug.jpeg'
+        'thumbnail': 'images/kleiner_zug.jpeg'
     },
     'Touren': {
         'description': 'Eine kleine Sammlung von Touren mit öffentlicher Anreise.',
-        'thumbnail': '/images/gipfelkreuz.jpeg'
+        'thumbnail': 'images/gipfelkreuz.jpeg'
     }
 }
 
@@ -48,8 +48,8 @@ MEDIUS_AUTHORS = {
         'description': """
             Ich bin sehr oft in den Bergen unterwegs und mache fast alle meine Skitouren, Hochtouren, Klettertouren und Mountainbiketouren mit den öffentlichen Verkehrsmitteln.
         """,
-        'cover': '/images/amadeus_cover.jpeg',
-        'image': '/images/amadeus_gebauer_small.jpeg',
+        'cover': 'images/amadeus_cover.jpeg',
+        'image': 'images/amadeus_gebauer_small.jpeg',
         'links': (),
     }
 }

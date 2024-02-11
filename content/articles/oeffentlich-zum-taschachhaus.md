@@ -2,8 +2,8 @@ Title: Mit sanfter Anreise zum Taschachhaus
 Category: Touren
 Date: 2024-02-10
 SubTitle: Staufrei aufs ewige Eis
-Cover: /images/taschachhaus.jpeg
-Thumbnail: /images/taschachhaus.jpeg
+Cover: images/taschachhaus.jpeg
+Thumbnail: images/taschachhaus.jpeg
 Tags: Hochtour
 
 Das soll hier kein ausführlicher Tourenbericht sein, sondern nur eine

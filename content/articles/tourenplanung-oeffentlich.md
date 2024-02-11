@@ -2,8 +2,8 @@ Title: Tourenplanung mit Bus & Bahn
 Category: Tipps & Tricks
 Date: 2024-02-09
 SubTitle: Staufrei zum Berg und zurück
-Cover: /images/zug_mit_bergen_small.jpg
-Thumbnail: /images/zug_mit_bergen.jpeg
+Cover: images/zug_mit_bergen_small.jpg
+Thumbnail: images/zug_mit_bergen.jpeg
 
 Egal ob für Hochtouren, Skitouren, zum Klettern oder zum Wandern - ein enges Netz an
 Bahn- und Buslinien im Alpenraum bringt uns bequem und umweltfreundlich
