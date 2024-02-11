@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Amadeus Gebauer'
-SITENAME = 'Mit Bus & Bahn in die Berge'
+SITENAME = 'Übersicht'
 SITEURL = ''
 
 PATH = 'content'
